@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/translations.js', 'HomeController@getTranslations');
+Route::get('/translations', 'HomeController@getTranslations');
 
 // Authenticated routes...
 Route::group(['middleware' => 'auth'], function () {
@@ -123,11 +123,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/link/{id}', 'PageController@redirectFromLink');
 
     // Search
-    Route::get('/search/all', 'SearchController@searchAll');
-    Route::get('/search/pages', 'SearchController@searchPages');
-    Route::get('/search/books', 'SearchController@searchBooks');
-    Route::get('/search/chapters', 'SearchController@searchChapters');
+    Route::get('/search', 'SearchController@search');
     Route::get('/search/book/{bookId}', 'SearchController@searchBook');
+    Route::get('/search/chapter/{bookId}', 'SearchController@searchChapter');
 
     // Other Pages
     Route::get('/', 'HomeController@index');

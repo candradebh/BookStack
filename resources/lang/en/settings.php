@@ -116,8 +116,11 @@ return [
     'language_select' => [
         'en' => 'English',
         'de' => 'Deutsch',
+        'es' => 'Español',
         'fr' => 'Français',
-        'pt_BR' => 'Português do Brasil'
+        'nl' => 'Nederlands',
+        'pt_BR' => 'Português do Brasil',
+        'sk' => 'Slovensky',
     ]
     ///////////////////////////////////
 ];

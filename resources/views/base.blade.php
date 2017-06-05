@@ -17,7 +17,7 @@
     <!-- Scripts -->
     <script src="{{ baseUrl('/libs/jquery/jquery.min.js?version=2.1.4') }}"></script>
     <script src="{{ baseUrl('/libs/jquery/jquery-ui.min.js?version=1.11.4') }}"></script>
-    <script src="{{ baseUrl('/translations.js') }}"></script>
+    <script src="{{ baseUrl('/translations') }}"></script>
 
     @yield('head')
 
@@ -47,7 +47,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-3 text-center">
-                    <form action="{{ baseUrl('/search/all') }}" method="GET" class="search-box">
+                    <form action="{{ baseUrl('/search') }}" method="GET" class="search-box">
                         <input id="header-search-box-input" type="text" name="term" tabindex="2" value="{{ isset($searchTerm) ? $searchTerm : '' }}">
                         <button id="header-search-box-button" type="submit" class="text-button"><i class="zmdi zmdi-search"></i></button>
                     </form>

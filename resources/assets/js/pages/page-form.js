@@ -60,7 +60,7 @@ function registerEditorShortcuts(editor) {
     editor.addShortcut('meta+shift+E', '', ['FormatBlock', false, 'code']);
 }
 
-export default function() {
+module.exports = function() {
     let settings = {
         selector: '#html-editor',
         content_css: [
@@ -68,6 +68,7 @@ export default function() {
             window.baseUrl('/libs/material-design-iconic-font/css/material-design-iconic-font.min.css')
         ],
         body_class: 'page-content',
+        browser_spellcheck: true,
         relative_urls: false,
         remove_script_host: false,
         document_base_url: window.baseUrl('/'),
@@ -77,9 +78,9 @@ export default function() {
         extended_valid_elements: 'pre[*]',
         automatic_uploads: false,
         valid_children: "-div[p|pre|h1|h2|h3|h4|h5|h6|blockquote]",
-        plugins: "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists",
+        plugins: "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codesample",
         imagetools_toolbar: 'imageoptions',
-        toolbar: "undo redo | styleselect | bold italic underline strikethrough superscript subscript | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table image-insert link hr | removeformat code fullscreen",
+        toolbar: "undo redo | styleselect | bold italic underline strikethrough superscript subscript | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table image-insert link hr | removeformat code fullscreen codesample",
         content_style: "body {padding-left: 15px !important; padding-right: 15px !important; margin:0!important; margin-left:auto!important;margin-right:auto!important;}",
         style_formats: [
             {title: "Header Large", format: "h2"},
@@ -213,4 +214,4 @@ export default function() {
         }
     };
     return settings;
-}
+};

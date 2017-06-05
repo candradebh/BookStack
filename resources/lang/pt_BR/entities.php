@@ -26,6 +26,10 @@ return [
     'no_pages_viewed' => 'Você não visualizou nenhuma página',
     'no_pages_recently_created' => 'Nenhuma página recentemente criada',
     'no_pages_recently_updated' => 'Nenhuma página recentemente atualizada',
+    'export' => 'Exportar',
+    'export_html' => 'Arquivo Web Contained',
+    'export_pdf' => 'Arquivo PDF',
+    'export_text' => 'Arquivo Texto',
 
     /**
      * Permissions and restrictions
@@ -39,18 +43,9 @@ return [
      * Search
      */
     'search_results' => 'Resultado(s) da Pesquisa',
-    'search_results_page' => 'Resultado(s) de Pesquisa de Página',
-    'search_results_chapter' => 'Resultado(s) de Pesquisa de Capítulo',
-    'search_results_book' => 'Resultado(s) de Pesquisa de Livro',
     'search_clear' => 'Limpar Pesquisa',
-    'search_view_pages' => 'Visualizar todas as páginas correspondentes',
-    'search_view_chapters' => 'Visualizar todos os capítulos correspondentes',
-    'search_view_books' => 'Visualizar todos os livros correspondentes',
     'search_no_pages' => 'Nenhuma página corresponde à pesquisa',
     'search_for_term' => 'Pesquisar por :term',
-    'search_page_for_term' => 'Pesquisar Página por :term',
-    'search_chapter_for_term' => 'Pesquisar Capítulo por :term',
-    'search_book_for_term' => 'Pesquisar Livros por :term',
 
     /**
      * Books
@@ -161,10 +156,6 @@ return [
     'pages_revisions_preview' => 'Preview',
     'pages_revisions_restore' => 'Restaurar',
     'pages_revisions_none' => 'Essa página não tem revisões',
-    'pages_export' => 'Exportar',
-    'pages_export_html' => 'Arquivo Web Contained',
-    'pages_export_pdf' => 'Arquivo PDF',
-    'pages_export_text' => 'Arquivo Texto',
     'pages_copy_link' => 'Copia Link',
     'pages_permissions_active' => 'Permissões de Página Ativas',
     'pages_initial_revision' => 'Publicação Inicial',

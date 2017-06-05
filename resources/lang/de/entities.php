@@ -26,6 +26,10 @@ return [
     'no_pages_viewed' => 'Sie haben bisher keine Seiten angesehen.',
     'no_pages_recently_created' => 'Sie haben bisher keine Seiten angelegt.',
     'no_pages_recently_updated' => 'Sie haben bisher keine Seiten aktualisiert.',
+    'export' => 'Exportieren',
+    'export_html' => 'HTML-Datei',
+    'export_pdf' => 'PDF-Datei',
+    'export_text' => 'Text-Datei',
 
     /**
      * Permissions and restrictions
@@ -39,18 +43,9 @@ return [
      * Search
      */
     'search_results' => 'Suchergebnisse',
-    'search_results_page' => 'Seiten-Suchergebnisse',
-    'search_results_chapter' => 'Kapitel-Suchergebnisse',
-    'search_results_book' => 'Buch-Suchergebnisse',
     'search_clear' => 'Suche zur&uuml;cksetzen',
-    'search_view_pages' => 'Zeige alle passenden Seiten',
-    'search_view_chapters' => 'Zeige alle passenden Kapitel',
-    'search_view_books' => 'Zeige alle passenden B&uuml;cher',
     'search_no_pages' => 'Es wurden keine passenden Suchergebnisse gefunden',
     'search_for_term' => 'Suche nach :term',
-    'search_page_for_term' => 'Suche nach :term in Seiten',
-    'search_chapter_for_term' => 'Suche nach :term in Kapiteln',
-    'search_book_for_term' => 'Suche nach :term in B&uuml;chern',
 
     /**
      * Books
@@ -160,10 +155,6 @@ return [
     'pages_revisions_preview' => 'Vorschau',
     'pages_revisions_restore' => 'Zur&uuml;ck sichern',
     'pages_revisions_none' => 'Diese Seite hat keine &auml;lteren Versionen.',
-    'pages_export' => 'Exportieren',
-    'pages_export_html' => 'HTML-Datei',
-    'pages_export_pdf' => 'PDF-Datei',
-    'pages_export_text' => 'Text-Datei',
     'pages_copy_link' => 'Link kopieren',
     'pages_permissions_active' => 'Seiten-Berechtigungen aktiv',
     'pages_initial_revision' => 'Erste Ver&ouml;ffentlichung',
